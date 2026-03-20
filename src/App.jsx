@@ -218,8 +218,7 @@ function App() {
     <div className="container">
       <header>
         <div className="logo" onClick={initTest}>
-          <i className="fa-solid fa-keyboard"></i>
-          <h1>Dhameliya typing <span>hub</span></h1>
+          <img src="/logo.png" alt="Dhameliya Typing Hub" className="logo-img" />
         </div>
         <nav>
           <button className="icon-btn" onClick={() => setShowSettings(true)} title="Settings">
